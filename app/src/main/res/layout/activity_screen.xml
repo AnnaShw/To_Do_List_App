@@ -16,11 +16,12 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
+
         <TextView
             android:id="@+id/textView"
             android:layout_width="662dp"
             android:layout_height="match_parent"
-            android:text="@string/just_do_it"
+            android:text="@string/plans_for_today"
             android:textAlignment="center"
             android:textColor="#090909"
             android:textColorHighlight="#0B0A0A"
@@ -62,31 +63,16 @@
         app:srcCompat="@drawable/icons8_add_100"
         android:contentDescription="@string/todo" />
 
-    <ScrollView
-        android:layout_width="372dp"
-        android:layout_height="372dp"
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.589"
+        app:layout_constraintHorizontal_bias="0.445"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.777">
-
-        <VerticalScrollView
-            android:id="@+id/hscroll"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <CheckBox
-                android:id="@+id/checkBox"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/task"
-                android:textSize="24sp" />
-
-        </VerticalScrollView>
-
-
-    </ScrollView>
+        app:layout_constraintVertical_bias="0.13" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

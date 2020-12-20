@@ -13,11 +13,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.To_Do_List_App">
-        <activity android:name=".Screen"></activity>
+        <activity android:name=".Screen"/>
 
         <uses-library
             android:name="com.google.android.wearable"
-            android:required="true" />
+            android:required="false" />
         <!--
                Set to true if your app is Standalone, that is, it does not require the handheld
                app to run.

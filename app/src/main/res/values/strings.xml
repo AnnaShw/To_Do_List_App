@@ -10,4 +10,6 @@
     <string name="hello_world">Hello Square World!</string>
     <string name="enter_task">Enter task</string>
     <string name="task">Task</string>
+    <string name="Today">today</string>
+    <string name="plans_for_today">Plans for today:</string>
 </resources>
